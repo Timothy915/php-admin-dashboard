@@ -1,0 +1,165 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar-brand {
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #212529;
+}
+
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav-item {
+    padding: 10px;
+}
+
+.sidebar-nav-item:hover {
+    background-color: #495057;
+}
+
+.sidebar-nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-nav-link i {
+    margin-right: 5px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-card h2 {
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.welcome-card p {
+    margin-bottom: 0;
+    color: #6c757d;
+}
+
+.logout-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+.admin-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.admin-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.admin-profile .admin-actions {
+    display: flex;
+    align-items: center;
+}
+
+.admin-actions button {
+    margin-left: 10px;
+}
+
+.nav-bar {
+background-color: #343a40;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.nav-bar .admin-info {
+display: flex;
+align-items: center;
+}
+
+.nav-bar .admin-info img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 10px;
+}
+
+.nav-bar .admin-info span {
+color: #fff;
+}
+
+.nav-bar .admin-actions {
+display: flex;
+align-items: center;
+}
+
+.nav-bar .admin-actions button {
+margin-left: 10px;
+background-color: #007bff;
+border: none;
+color: #fff;
+padding: 8px 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.nav-bar .admin-actions button:hover {
+background-color: #0056b3;
+}
